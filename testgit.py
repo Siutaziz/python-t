@@ -15,7 +15,7 @@ def echo(update,context):
 def main():
 
     TOKEN = '5518589720:AAHWtTJFjLnFBjd_gUjnXWIfPdCt_1Yl1fc'
-    APP_NAME = ''
+    APP_NAME = 'https://telegramsiut.herokuapp.com/'
 
     updater = Updater(TOKEN,use_context=True)
     dp = updater.dispatcher
